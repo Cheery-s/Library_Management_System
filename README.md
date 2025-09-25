@@ -123,13 +123,13 @@ Member_Types ──→ Members
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Cheery-s/Library_Management_System.git
    cd library-management-system
    ```
 
 2. **Create the database:**
    ```bash
-   mysql -u root -p < clean_library_schema.sql
+   mysql -u root -p < library_schema.sql
    ```
 
 3. **Verify installation:**
@@ -156,7 +156,7 @@ Member_Types ──→ Members
 
 3. **Run the schema:**
    ```sql
-   source /path/to/clean_library_schema.sql
+   source /path/to/library_schema.sql
    ```
 
 4. **Verify table creation:**
@@ -577,15 +577,12 @@ AND t.transaction_type = 'Borrow';
 - Real-time availability tracking
 - Fine calculation and member management
 
-## License
-
-This project is available for educational and commercial use. See the LICENSE file for details.
 
 ## Support
 
 For questions, issues, or contributions:
 - Create an issue in the GitHub repository
-- Email: [your-email@example.com]
+- Email: [jinaduserifat@gmail.com]
 - Documentation: Check this README and inline SQL comments
 
 ---

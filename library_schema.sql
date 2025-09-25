@@ -2,8 +2,8 @@
 --  Library Management System Database Schema
 -- =====================================================
 
-CREATE DATABASE library_management_systems;
-USE library_management_systems;
+CREATE DATABASE library_management_system;
+USE library_management_system;
 
 -- =====================================================
 -- TABLE: categories
